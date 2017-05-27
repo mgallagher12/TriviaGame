@@ -1,0 +1,33 @@
+body, html {
+    background-color: #782F40;
+    height: 100%;
+}
+
+h1, h3,  h4 {
+	color: white;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	text-align: center;
+}
+
+#showCountDown {
+	height: 25px;
+	display: block;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	color:;
+}
+
+.logo {
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: left;
+ }

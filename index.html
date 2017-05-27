@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="page header">
+			<h1>Trivia Game - Florida State Football Edition!</h1>
+		</header>
+			<button class="startButton btn btn-primary">Start Game!</button>
+			
+
+		  	<div id="showCountDown"></div>
+		  	<h3 id="triviaQuestion">
+				
+			</h3>
+
+
+			<div class="multipleChoice">
+				<div class="list-group choices">
+				<a id="a" class="list-group-item"></a>
+				<a id="b" class="list-group-item"></a>
+				<a id="c" class="list-group-item"></a>
+				<a id="d" class="list-group-item"></a>
+				<a id="e" class="list-group-item"></a>
+				</div>
+			</div>
+
+			<div class="panel panel-default results">
+					<div class="panel-heading">Your Trivia Results</div>
+						<div class="panel-body">
+							<ul class="list-group">
+			    				<li id="correct"></li>
+								<li id="wrong"></li>
+								<li id="unanswered"></li>
+							</ul>
+  					</div>
+			</div>
+
+			<div class="logo">
+				<img src="assets/images/logo.png" alt="FSU Logo" style="width:250px;height:250px;">
+			</div>
+	</div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>	
+</body>
+</html>
